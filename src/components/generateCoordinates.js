@@ -142,7 +142,7 @@ const GenerateCoordinates = () => {
             <button onClick={generateAllCoordinates}>Generate Co Ordinates</button>
             <br />
             <br />
-            <button onClick={checkIfCoordinatesExist}>Check if Coordinates Exist</button>
+            <button style={{ backgroundColor: '#ab1818', color: 'white' }} onClick={checkIfCoordinatesExist}>Check if Coordinates Exist</button>
 
             {/* show if coordinates exist */}
             {locationResult.length > 0 && (
