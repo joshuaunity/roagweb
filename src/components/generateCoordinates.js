@@ -41,7 +41,7 @@ const GenerateCoordinates = () => {
 
     const generateTrapsCoordinates = () => {
         // formula amount to generate
-        let traps_amount = 202;
+        let traps_amount = 237;
         let traps = generateCoordinates(traps_amount);
         //  split the traps into 3 arrays, 40%, 40%, 20%
         let erruptive = traps.slice(0, traps.length * 0.4);
